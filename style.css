@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+  background-color: #f9f6f6e3;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Profile Card Style */
+.profile-card {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #110404;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings Styling (Group Selectors) */
+h1, h2 {
+  color: #2C3E50;
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Bio Paragraph (Class Selector) */
+.bio {
+  color: #7F8C8D;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Unordered List Styling (Element Selector) */
+ul {
+  padding-left: 20px;
+  color: #34495E;
+  margin-bottom: 20px;
+}
+
+/* Contact Section Paragraphs (Descendant Selector) */
+.contact p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Anchor Tags Styling (Attribute Selector) */
+a[href] {
+  color: #1ABC9C;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Hover Effects on Links */
+a[href]:hover {
+  color: #16A085;
+  text-decoration: underline;
+}
+
+/* Profile Image Styling (ID Selector) */
+#profile-pic {
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}

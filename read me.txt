@@ -1,0 +1,25 @@
+Project: Personal Profile Card
+
+Files Included:
+1. index.html – Contains the HTML structure for the profile card. Note that an inline style is applied to the main container for its background color.
+2. style.css – Contains all the external CSS, which handles the majority of styling for the project.
+3. readme.txt – Explains the CSS approaches and selectors used.
+
+CSS Types Used:
+- Inline CSS: A style attribute on the profile card container is used to apply a background color.
+- External CSS: All other styling properties (layout, typography, colors, hover effects, etc.) are defined in "style.css".
+
+CSS Selectors Implemented:
+- Element Selectors: Styles applied directly to elements such as the body, ul, h1, h2, and p.
+- Class Selectors: Used to style elements with a reusable class, including ".profile-card" for the main container and ".bio" for the bio paragraph.
+- ID Selector: "#profile-pic" is used to uniquely style the profile image.
+- Group Selectors: A combined selector (h1, h2) groups heading tags to share common style attributes.
+- Descendant Selectors: ".contact p" targets <p> elements that are children of the .contact section.
+- Attribute Selectors: "a[href]" specifically targets all anchor (<a>) tags with an href attribute, which allows for consistent styling of links and hover effects.
+
+Design Philosophy:
+The design adopts a modern yet personal color palette—a clean white background, dark blue headings, soft gray text, and vibrant teal accents for interactive elements—to create a sleek and engaging profile card.
+
+Repository Naming:
+Ensure your GitHub repository follows the designated naming convention (e.g., "summer-school-online-day-2") and remains public for submission.
+
